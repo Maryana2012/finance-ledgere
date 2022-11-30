@@ -31,16 +31,20 @@ body {
     --text-color: #ffffff;
     --secondary-color: #333333;
 }
+.container {
+    width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
  /* ---------Header------------- */
 .header-container {
     position: absolute;
     content: '';
     z-index: 1;
     display: flex;
-    width: 1360px;
-    padding-top: 11px;
-    padding-right: 46px;
-    padding-left: 30px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .logo {
      display: flex;
@@ -94,7 +98,7 @@ body {
 .section-hero {
     background-image: url(../images/town.jpg);
     background-size: cover;
-    width: 1360px;
+    width: 100%;
     height: 768px;
 }
 .hero-title {
@@ -144,7 +148,6 @@ body {
 
 /*------- section instrument---------- */
 .container-instrument {
-    width: 1360px;
     padding-top: 40px;
     padding-right: 66px;
     padding-left: 66px;
@@ -192,7 +195,6 @@ body {
 /* -------section-team --------------*/
 .section-looking {
     display: flex;
-    width: 1360px;
 }
 .container-text-looking{
    width: 680px; 
@@ -263,7 +265,6 @@ body {
 /* ----------section-blog------------ */
 .section-blog {
     display: flex;
-    width: 1360px;
 }
 .blog-text-container {
     padding: 112px 44px 113px 30px;
@@ -309,7 +310,6 @@ body {
 }
 /* --------- section-team-----------*/
 .section-team {
-    width: 1360px;
     padding: 50px 30px 59px 30px;
 }
 .team-title {
@@ -377,12 +377,12 @@ body {
 /* ------------section-callback--------- */
 .section-callback {
     display: flex;
-    width: 1360px;
+    background-color: #F4F4F4;
+    justify-content: center;
 }
 .section-callback-container {
     width: 680px;
     padding: 78px 30px 82px 30px;
-    background-color:  #F4F4F4;
 }
 .callback-title {
     margin-bottom: 34px;
@@ -433,7 +433,6 @@ body {
 }  
 /* -------footer-container----------- */
 .footer-container {
-    width: 1360px;
     background-color: var(--secondary-color);
     padding-top: 20px;
     padding-bottom: 16px;
