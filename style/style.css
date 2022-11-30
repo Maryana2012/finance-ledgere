@@ -5,7 +5,8 @@ h2,
 h3,
 section,
 header,
-p {
+p, 
+img{
     margin: 0;
     padding: 0;
 }
@@ -257,10 +258,14 @@ body {
     text-align: center;
     color: var(--secondary-color);
 }
+.work-list-item {
+    margin-bottom: 0;
+    height: 214px;
+}
 .work-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 8px 7px;
 }
 /* ----------section-blog------------ */
 .section-blog {
@@ -418,6 +423,7 @@ body {
 .btn-form {
     width: 620px;
     height: 42px;
+    color: var(--text-color);
     background-color: var(--accent-color);
     border: none;
     border-radius: 5px;
